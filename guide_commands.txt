@@ -1,0 +1,8 @@
+# Para utilizar la herramienta perfectamente instalaremos los requisitos de la herramienta como root...
+
+$ ./requirements.sh
+
+# Una vez instalado todo podremos verificar que funciona la herramienta ejecutandola de la siguiente manera...
+
+$ checkPassword
+
