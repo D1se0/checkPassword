@@ -1,6 +1,6 @@
 # checkPassword
 
-checkPassword es una herramienta de línea de comandos desarrollada en Python que te permite verificar si una contraseña ha sido comprometida en bases de datos conocidas de contraseñas filtradas. Utiliza la API de Pwned Passwords de Have I Been Pwned para realizar esta verificación de manera segura y eficiente.
+`checkPassword` es una herramienta de línea de comandos desarrollada en Python que te permite verificar si una contraseña ha sido comprometida en bases de datos conocidas de contraseñas filtradas. Utiliza la API de Pwned Passwords de Have I Been Pwned para realizar esta verificación de manera segura y eficiente.
 
 ## Funcionalidades
 
@@ -67,11 +67,11 @@ La contraseña 'secreta123' no ha sido comprometida en bases de datos conocidas.
 
 ## Contribución:
 
-Si encuentras algún problema o tienes alguna sugerencia de mejora, no dudes en abrir un issue o enviar un pull request. ¡Tu colaboración es bienvenida!
+Si encuentras algún problema o tienes alguna sugerencia de mejora, no dudes en abrir un issue o enviar un `pull request`. ¡Tu colaboración es bienvenida!
 
 ## Créditos:
 
-Desarrollado por @d1se0 - [Link Perfil GitHub](https://github.com/D1se0)
+Desarrollado por `@d1se0` - [Link Perfil GitHub](https://github.com/D1se0)
 
 ## Licencia:
 
