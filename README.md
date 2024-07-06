@@ -49,7 +49,7 @@ python3 checkPassword.py
 ```bash
 python3 checkPassword.py
 ```
-### less
+### Info:
 
 ```bash
 ██████╗ ███████╗██████╗ ██╗   ██╗███████╗██████╗ 
@@ -71,7 +71,7 @@ Si encuentras algún problema o tienes alguna sugerencia de mejora, no dudes en 
 
 ## Créditos:
 
-Desarrollado por @d1se0 - (Link Perfil GitHub)[https://github.com/D1se0]
+Desarrollado por @d1se0 - [Link Perfil GitHub](https://github.com/D1se0)
 
 ## Licencia:
 
