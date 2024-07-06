@@ -4,51 +4,51 @@
   <img src="https://github.com/D1se0/checkPassword/assets/164921056/6c3d5009-0726-42c3-ac5c-bd85efcd04b0" alt="Directorybrute" width="400">
 </p>
 
-`checkPassword` es una herramienta de línea de comandos desarrollada en Python que te permite verificar si una contraseña ha sido comprometida en bases de datos conocidas de contraseñas filtradas. Utiliza la API de Pwned Passwords de Have I Been Pwned para realizar esta verificación de manera segura y eficiente.
+`checkPassword` is a command line tool developed in Python that allows you to check if a password has been compromised against known databases of leaked passwords. Use Have I Been Pwned's Pwned Passwords API to perform this verification safely and efficiently.
 
-## Funcionalidades
+## Features
 
-### Verificación de Contraseñas Comprometidas:
+### Verification of Compromised Passwords:
 
-Ingresa una contraseña para verificar si ha aparecido en filtraciones conocidas.
+Enter a password to check if it has appeared in known leaks.
 
-Utiliza una técnica segura de hash para proteger la privacidad de la contraseña durante la verificación.
+It uses a secure hashing technique to protect password privacy during verification.
 
-## Interfaz de Línea de Comandos (CLI):
+## Command Line Interface (CLI):
 
-Interacción amigable con el usuario a través de la terminal.
+Friendly interaction with the user through the terminal.
 
-Muestra mensajes de advertencia si la contraseña está comprometida y recomendaciones para cambiarla.
+Displays warning messages if the password is compromised and recommendations to change it.
 
-## Seguridad y Privacidad:
+## Security and Privacy:
 
-La verificación se realiza sin enviar la contraseña completa a través de la red.
+Verification is performed without sending the full password over the network.
 
-Solo se envía una porción del hash SHA-1 de la contraseña para buscar coincidencias en la base de datos de contraseñas comprometidas.
+Only a portion of the SHA-1 hash of the password is sent to match the compromised password database.
 
-## Uso:
+## Use:
 
-### Requisitos Previos
+### Previous requirements
 
-Asegúrate de tener instalado `Python3` en tu sistema. Además, las dependencias necesarias (`colorama` y `requests`) se instalan automáticamente ejecutando el script `requirements.sh`.
+Make sure you have `Python3` installed on your system. Additionally, the necessary dependencies (`colorama` and `requests`) are installed automatically by running the `requirements.sh` script.
 
-## Instalación:
+## Install:
 
-Ejecuta el siguiente comando para instalar las dependencias y configurar el script para ejecutarse globalmente:
+Run the following command to install the dependencies and configure the script to run globally:
 
 ```bash
 sudo ./requirements.sh
 ```
 
-## Ejecución:
+## Execution:
 
-Para verificar una contraseña, simplemente ejecuta el script `checkPassword` seguido del comando:
+To verify a password, simply run the `checkPassword` script followed by the command:
 
 ```bash
 python3 checkPassword.py
 ```
 
-## Ejemplo de Uso:
+## Example of Use:
 
 ```bash
 python3 checkPassword.py
@@ -63,20 +63,20 @@ python3 checkPassword.py
 ██████╔╝███████╗██████╔╝ ╚████╔╝ ███████╗██║  ██║
 ╚═════╝ ╚══════╝╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝
 
-Ingrese la contraseña a verificar (o 'q' para salir): secreta123
+Enter the password to verify (or 'q' to exit): secret123
 
-La contraseña 'secreta123' no ha sido comprometida en bases de datos conocidas.
-¡La contraseña es segura!
+The password 'secret123' has not been compromised in known databases.
+The password is secure!
 ```
 
-## Contribución:
+## Contribution:
 
-Si encuentras algún problema o tienes alguna sugerencia de mejora, no dudes en abrir un issue o enviar un `pull request`. ¡Tu colaboración es bienvenida!
+If you encounter any problems or have any suggestions for improvement, don't hesitate to open an issue or submit a pull request. Your collaboration is welcome!
 
-## Créditos:
+## Credits:
 
-Desarrollado por `@d1se0` - [Link Perfil GitHub](https://github.com/D1se0)
+Developed by `@d1se0` - [GitHub Profile Link](https://github.com/D1se0)
 
-## Licencia:
+## License:
 
-Este proyecto está licenciado bajo la [Licencia XYZ]. Ver el archivo LICENSE para más detalles.
+This project is licensed under the [XYZ License]. See the LICENSE file for more details.
